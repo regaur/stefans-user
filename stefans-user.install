@@ -1,0 +1,14 @@
+pre_install () {
+  id -u stefans || useradd -m stefans
+  gpasswd -a stefans wheel
+  # lock password (use ssh pub key to login)
+  passwd -l stefans
+}
+
+post_install () {
+  chown -R stefans:stefans ~stefans
+}
+
+post_remove () {
+  id -u stefans && userdel --remove stefans
+}

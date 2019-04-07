@@ -1,6 +1,6 @@
 # Maintainer: Jan Boelsche <jan@lagomorph.de>
 pkgname='stefans-user'
-pkgver=1.0
+pkgver=2.0
 pkgrel=1
 pkgdesc='Creates a user called "stefans" and installs some dotfiles and an ssh public key'
 packager='Jan Boelsche'
@@ -21,7 +21,7 @@ source=(
 
 sha256sums=('a8668316913ad6a3aa28c814d1cc65c6215574bf22010cbbac2ae3470f52478d'
             '554807de544674eacbd7a56aad43296ff7ca4c0e56a5141436b81f9795fc73cf'
-            '753c3c0af86c07fa5a447c829cfc1b646ccc51627bdaeb9786b99aa1ccb48608'
+            'b55dea49e3393815f9e883dc870b271dbeb03f3e9682c7caf47c7b95a0dee7d0'
             '954ee494fada6a61510f3d8e7a0859e757abb4d5f205c9a08a95aff4f6bfba8a')
 
 package() {
